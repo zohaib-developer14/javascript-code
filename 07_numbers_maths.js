@@ -60,8 +60,8 @@ let userInput = 5
 
 
 
-// + 1 to avoid numbers for .04, .5 like that
-let anotherMachineNumber = (Math.random() * 10) + 1;
+// + 1 to avoid numbers for .04, .5 like that "0.0008816524521848557"
+let anotherMachineNumber = (Math.random() * 10);
 
 // console.log(anotherMachineNumber);
 
@@ -70,6 +70,8 @@ let max = 20;
 
 
 console.log(Math.floor(Math.random() * (max - min + 1)) + min)
+
+
 
 
 
