@@ -66,4 +66,28 @@ const newObj = {
 }
 
 
-const {courseInstructor : instructor} = course
+
+// is mein course aik object h
+// newObj.courseInstructor → variable ban gaya
+// this step is called destructuring
+const {courseInstructor} = newObj
+
+//course.courseInstructor → instructor naam ke variable mein store karo
+// this step is called renaming the destructured object 
+const {courseInstructor: instructor} = newObj;
+
+console.log(instructor);
+
+
+
+// another example of destructuring an object
+const obj = {a:10};
+
+const { a:b } = obj;
+
+console.log(b); // 10
+
+
+
+
+
