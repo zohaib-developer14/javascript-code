@@ -65,3 +65,4 @@ const c = 94;
 
 
 
+console.log([])
